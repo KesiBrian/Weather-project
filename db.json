@@ -1,0 +1,82 @@
+{
+    "weatherData": [
+      {
+        "city": "Nairobi",
+        "temperature": 22,
+        "condition": "Partly Cloudy",
+        "description": "A mild day with occasional clouds and a gentle breeze."
+      },
+      {
+        "city": "Mombasa",
+        "temperature": 30,
+        "condition": "Sunny",
+        "description": "Hot and sunny with high humidity, perfect for the beach."
+      },
+      {
+        "city": "Kisumu",
+        "temperature": 25,
+        "condition": "Rainy",
+        "description": "Expect rain showers throughout the day, especially in the afternoon."
+      },
+      {
+        "city": "Dodoma",
+        "temperature": 27,
+        "condition": "Sunny",
+        "description": "A warm, sunny day with clear skies."
+      },
+      {
+        "city": "Dar es Salaam",
+        "temperature": 29,
+        "condition": "Thunderstorms",
+        "description": "Thunderstorms likely with heavy rain, so stay indoors if possible."
+      },
+      {
+        "city": "Kampala",
+        "temperature": 24,
+        "condition": "Cloudy",
+        "description": "Overcast skies with a chance of rain later in the day."
+      },
+      {
+        "city": "Entebbe",
+        "temperature": 26,
+        "condition": "Sunny",
+        "description": "Bright and sunny with a pleasant breeze by the lake."
+      },
+      {
+        "city": "Addis Ababa",
+        "temperature": 21,
+        "condition": "Cool",
+        "description": "A cool day with occasional sunshine and pleasant temperatures."
+      },
+      {
+        "city": "Asmara",
+        "temperature": 20,
+        "condition": "Clear",
+        "description": "Clear skies and mild temperatures make for a beautiful day."
+      },
+      {
+        "city": "Juba",
+        "temperature": 33,
+        "condition": "Hot",
+        "description": "Very hot with plenty of sunshine throughout the day."
+      },
+      {
+        "city": "Mogadishu",
+        "temperature": 28,
+        "condition": "Breezy",
+        "description": "A warm day with a refreshing breeze from the coast."
+      },
+      {
+        "city": "Kigali",
+        "temperature": 23,
+        "condition": "Partly Cloudy",
+        "description": "Mild temperatures with some clouds and a gentle breeze."
+      },
+      {
+        "city": "Bujumbura",
+        "temperature": 24,
+        "condition": "Sunny",
+        "description": "A sunny day perfect for enjoying the outdoors."
+      }
+    ]
+  }

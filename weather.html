@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <nav>
+        <h1>Weather</h1>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h3>This is the Home Page</h3>
+            <div class="weather-container">
+                <input type="text" id="city" placeholder="Enter city name">
+                <button id="getWeather">Get Weather</button>
+                <button id="toggleBg">Toggle Dark/Light Mode</button>
+                <div id="weatherResult"></div>
+                <p>Weather refers to the state of the atmosphere at a specific place and time, characterized by various elements such as temperature, humidity, precipitation, wind speed, and atmospheric pressure. These components interact in complex ways, influencing daily weather conditions. For example, temperature changes can cause air to hold different amounts of moisture, leading to rain or snow. Understanding weather patterns is essential not only for daily planning but also for various industries, including agriculture, transportation, and emergency management. Meteorologists analyze data collected from satellites, weather stations, and radar systems to make accurate predictions, helping individuals and businesses prepare for the day ahead.</p>
+            </div>
+        </section>
+
+        <section id="news">
+            <h3>Latest News</h3>
+            <p>In recent years, advancements in meteorological technology have dramatically improved our ability to predict weather patterns. High-resolution satellite imagery, Doppler radar, and sophisticated computer models allow meteorologists to track storms and forecast weather changes with remarkable accuracy. For instance, severe weather alerts are now issued well in advance, giving people time to prepare for events like hurricanes, tornadoes, and blizzards. Moreover, climate change is altering weather patterns globally, leading to increased frequency and intensity of extreme weather events. Understanding these changes is crucial for developing strategies to mitigate their impact. Public awareness campaigns and educational resources are vital in ensuring that communities are prepared and informed about potential weather-related hazards.</p>
+            <p>Stay tuned for the latest weather updates!</p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact Us</h3>
+            <p>If you have any questions or concerns about weather conditions in your area, our team of dedicated meteorologists is here to help. You can reach us via email or through our social media channels. We encourage you to report any unusual weather patterns or events you observe, as citizen science plays a vital role in enhancing our understanding of local conditions. Additionally, if you're interested in learning more about weather forecasting or how to interpret weather reports, we offer resources and workshops designed to educate the public on these important topics. Your safety is our top priority, and we strive to provide accurate and timely information to help you make informed decisions based on current weather conditions.</p>
+            <p>You can reach us at: info@weatherapp.com</p>
+
+        </section>
+
+        <section id="about">
+            <h3>About Us</h3>
+            <p>The field of meteorology encompasses the study of atmospheric phenomena and their impact on the environment and human activities. It combines principles from physics, mathematics, and environmental science to understand weather processes and patterns. Meteorologists utilize historical data and real-time observations to create forecasts, which can range from short-term predictions to long-term climate models. Understanding these forecasts is essential for various sectors, including agriculture, where planting and harvesting decisions are often based on expected weather conditions. Moreover, accurate weather forecasting helps in disaster preparedness, allowing communities to respond effectively to natural disasters such as floods, storms, and heatwaves. As our climate continues to evolve, the role of meteorology becomes increasingly important in addressing the challenges posed by weather variability and climate changes</p>
+            <p>This app provides real-time weather updates for your location.</p>
+        </section>
+    </main>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
